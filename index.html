@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<p class="content">$</p>
+
+<div class="container">
+    <form id="form">
+        <input type="text" name="" placeholder ="Name" id="nameInput"> <br>
+        <input type="text" name="" placeholder ="Surname" id="surnameInput"> <br>
+        <input type="text" name="" placeholder ="Phone-number" id="phoneInput"> <br>
+        <input type="text" name="" placeholder ="Address" id="addressInput"> <br>
+        <input type="text" name="" placeholder="User ID" id="userId">
+
+<br>
+        <input type="submit" name="" value="POST" id="PostButton">
+        <br>
+        <button type="button" id="PutButton">PUT</button> <br>
+        <button type="button" id="DeleteButton">DELETE</button>
+
+    </form>
+
+
+    <div class="userPlaceholder">
+        <table id="table">
+            
+                <th>ID</th>
+                <th>firstName</th>
+                <th>lastName</th>
+                <th>phoneNumber</th>
+                <th>address</th>
+        </table>
+    </div>
+    
+</div>
+
+    <button id="editBTN">Test</button>
+    <!-- 
+        "json-server --watch db.json"
+        Resources
+    http://localhost:3000/users
+    http://localhost:3000/genders
+  
+    Home
+    http://localhost:3000 
+-->
+    <script src="app.js"></script>
+</body>
+</html>

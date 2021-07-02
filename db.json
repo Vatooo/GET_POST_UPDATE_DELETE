@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "Vato",
+      "lastName": "Jebashvili",
+      "phoneNumber": "595",
+      "address": "tbilisi",
+      "id": 1
+    },
+    {
+      "firstName": "Rocky",
+      "lastName": "Balboa",
+      "phoneNumber": "59912312312",
+      "address": "dasdasdas",
+      "id": 2
+    }
+  ]
+}
